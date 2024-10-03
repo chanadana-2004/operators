@@ -12,3 +12,10 @@ Output format:
 Output should display an integer that returns the total runs that the extras together contribute to team’s total.
 '''
 20
+
+program:
+x = float(input())
+y = float(input())
+z = float(input())
+a = (x * z * 30) / y
+print("%.2f" % a)
