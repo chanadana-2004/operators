@@ -18,3 +18,12 @@ if __name__ == "__main__":
 16
 16
 26
+
+
+program:
+total_age = int(input())
+a = (total_age - 10) // 3  
+z = a + 10  # Age of player Z
+print(a)  
+print(a)  
+print(z)  
