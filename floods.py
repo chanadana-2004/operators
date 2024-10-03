@@ -8,3 +8,12 @@ Output format:
 Output should display a flood that gives the total contribution of money in rupees from the cricket team. The float value should be displayed correct to 2 decimal places.
 '''
 380000.00
+
+
+program:
+X = int(input())
+Y = int(input())
+t1 = X * 0.50 * 6  # Contribution from senior players (6 players)
+t2 = Y * 0.40 * 5   # Contribution from junior players (5 players)
+t = t1 + t2
+print("%.2f" % t)
